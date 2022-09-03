@@ -1,0 +1,15 @@
+
+  PermissionError
+
+  [Errno 13] Permission denied: 'jsts/scripts/convert_str_to_float.py'
+
+  at ~/.pyenv/versions/3.9.4/lib/python3.9/os.py:597 in _execvpe
+       593│         argrest = (args,)
+       594│         env = environ
+       595│ 
+       596│     if path.dirname(file):
+    →  597│         exec_func(file, *argrest)
+       598│         return
+       599│     saved_exc = None
+       600│     path_list = get_exec_path(env)
+       601│     if name != 'nt':
